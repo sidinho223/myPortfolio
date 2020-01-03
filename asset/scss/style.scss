@@ -1,0 +1,50 @@
+/*navbar styles*/
+
+
+
+#style-navbar{
+
+	background-color: #17252A;
+}
+
+/*intro section style*/
+
+#intro{
+height: 100vh;
+width: 100%;
+padding-left: 5rem;
+padding-top: 5rem;
+/*background-color: #3AAFA9;*/
+
+
+	#jumbo{
+
+		width: 80%;
+		background-color: transparent;
+		border: 1px solid white;
+
+
+		h1{
+
+			font-size: 3.5rem;
+			font-family: 'Acme', sans-serif;
+			color: #17252A;
+
+			span{
+				
+				color:#3AAFA9;
+			}
+		}
+
+		button{
+			background-color: #3AAFA9;
+			font-family: 'Gelasio', serif;
+			box-shadow: none;
+		}
+
+	}
+
+}
+
+
+
