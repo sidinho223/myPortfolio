@@ -1,0 +1,154 @@
+/*navbar styles*/
+section {
+  height: 800px;
+  padding-top: 30px;
+  width: 100%; }
+
+.box {
+  height: 400px;
+  background-color: red;
+  border: 1px solid blue; }
+
+/*intro section style*/
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  width: 100%; }
+  .wrapper #side-bar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #17252A;
+    transition: all 0.3s; }
+    .wrapper #side-bar h1 {
+      font-size: 2rem;
+      color: #FEFFFF;
+      text-align: center;
+      background-color: #2B7A78;
+      padding: 20px 10px 20px 10px;
+      margin-bottom: 0; }
+    .wrapper #side-bar #pages {
+      background-color: #3AAFA9;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .wrapper #side-bar #pages a:focus {
+        color: #17252A; }
+    .wrapper #side-bar li {
+      padding: 10px;
+      text-align: center; }
+      .wrapper #side-bar li a {
+        font-size: 1rem;
+        color: #FEFFFF; }
+      .wrapper #side-bar li a:hover {
+        text-decoration: none;
+        color: #17252A; }
+    .wrapper #side-bar #social li a {
+      margin-left: 1rem;
+      font-size: 1.5rem; }
+    .wrapper #side-bar #social li a:hover {
+      text-decoration: none;
+      color: #3AAFA9; }
+    .wrapper #side-bar.hide {
+      margin-right: -250px; }
+  .wrapper #content {
+    width: calc(100% - 250px);
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .wrapper #content nav {
+      height: 80px;
+      position: fixed;
+      width: calc(100% - 250px);
+      transition: all 0.3s;
+      z-index: 999; }
+      .wrapper #content nav.hide {
+        width: 100%; }
+      .wrapper #content nav .navbar-brand {
+        font-size: 2rem;
+        font-family: 'Zilla Slab', serif; }
+    .wrapper #content.hide {
+      width: 100%; }
+    .wrapper #content #sidebar-toggler {
+      width: 40px;
+      height: 40px;
+      background-color: #FEFFFF;
+      box-shadow: none;
+      border: none;
+      cursor: pointer; }
+      .wrapper #content #sidebar-toggler span {
+        width: 80%;
+        height: 2px;
+        margin: 0 auto;
+        display: block;
+        background-color: #17252A;
+        transition: all 0.1s cubic-bezier(0.81, -0.33, 0.345, 1.375);
+        transition-delay: 0.2s; }
+      .wrapper #content #sidebar-toggler span:first-of-type {
+        transform: rotate(45deg) translate(2px, 2px); }
+      .wrapper #content #sidebar-toggler span:nth-of-type(2) {
+        opacity: 0; }
+      .wrapper #content #sidebar-toggler span:last-of-type {
+        transform: rotate(-45deg) translate(1px, -1px); }
+      .wrapper #content #sidebar-toggler.hide span {
+        transform: none;
+        opacity: 1;
+        margin: 5px auto; }
+    .wrapper #content #intro {
+      height: 100vh;
+      min-height: 450px;
+      padding-top: 80px; }
+      .wrapper #content #intro #jumbo {
+        background-color: transparent;
+        padding-top: 8rem; }
+        .wrapper #content #intro #jumbo h1 {
+          display: block;
+          font-size: 3rem;
+          display: block;
+          font-family: 'Zilla Slab', serif;
+          text-align: center;
+          color: #17252A;
+          margin-bottom: 3rem; }
+          .wrapper #content #intro #jumbo h1 span {
+            color: #3AAFA9; }
+        .wrapper #content #intro #jumbo button {
+          display: block;
+          background-color: none;
+          font-family: 'Montserrat', sans-serif;
+          color: #3AAFA9;
+          background-color: #FEFFFF;
+          margin: auto;
+          box-shadow: #3AAFA9;
+          border: 1px solid #3AAFA9; }
+        .wrapper #content #intro #jumbo button:hover {
+          background-color: #3AAFA9;
+          color: #FEFFFF;
+          transition: all 0.5s; }
+    .wrapper #content #aboutMe {
+      background-color: #3AAFA9;
+      height: 300px;
+      padding-right: 200px;
+      padding-left: 200px; }
+      .wrapper #content #aboutMe .about-text h1 {
+        color: #FEFFFF; }
+    .wrapper #content .triangle {
+      width: 0;
+      height: 0;
+      border-top: 30px solid #17252A;
+      border-left: 300px solid transparent;
+      border-right: 300px solid transparent;
+      margin: 0; }
+    .wrapper #content #projects .projects-container {
+      text-align: center;
+      height: 300px; }
+      .wrapper #content #projects .projects-container h1 {
+        font-size: 2rem; }
+    .wrapper #content .title {
+      margin-bottom: 20px;
+      font-family: 'Montserrat', sans-serif; }
+
+/*# sourceMappingURL=style.css.map */

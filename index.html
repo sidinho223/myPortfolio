@@ -3,95 +3,175 @@
 <head>
 	<title> Sidi Diaby</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Acme|Gelasio&display=swap" rel="stylesheet">
+
+	<!-- website style -->
+	<link rel="stylesheet" type="text/css" href="./asset/css/main.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Zilla+Slab|Montserrat|Dancing+Script=swap" rel="stylesheet">
 	<!-- Bootstrap 4 cd  -->
 	
 	<!-- --------------------------------------------------------- -->
-
 	
-	<!-- website style -->
-	<link rel="stylesheet" type="text/css" href="./asset/css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	
+	
+	 <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+		
+
 	
 </head>
 <body>
 
 	<!-- navbar -->
+<div class="wrapper"> 
 
-	<nav id="style-navbar"class="d-none navbar navbar-expand-lg navbar-dark">
-		<!-- the brand located on the navba -->
-		 <a href="#" class="navbar-brand">Sidi's portfolio</a>
-
-		 <!-- This is the hamburger button allowing the collapse  -->
-		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-items">
-		 		<span class="navbar-toggler-icon"></span>
-		 </button>
 		
-		<!-- the different nav items to be collapse -->
-		 <div class="collapse navbar-collapse" id="nav-items">
-
-		 	<ul class="navbar-nav mr-auto">
-		 		<li class="nav-item">
-		 			
-		 			<a class="nav-link" href="#" >About me</a>
-		 		</li>
-		 		<li class="nav-item">
-		 			
-		 			<a class="nav-link" href="#" >Skills</a>
-		 		</li>
-		 		<li class="nav-item">
-		 			
-		 			<a class="nav-link" href="#" >Projects</a>
-		 		</li>
-		 		<li class="nav-item">
-		 			
-		 			<a class="nav-link" href="#" >Resume</a>
-		 		</li>
-		 	</ul>
-		 	
-		 </div>
-
-	</nav>
 
 
 
-
-
-	<section id="intro">	
+<div id="content" class="hide">	
 		
-		<div class="container">
+		<nav id="style-navbar"class="navbar navbar-light hide">
+				<!-- the brand located on the navba -->
+				 <a href="#" class="navbar-brand">S.M.D</a>
+				 <!-- This is the hamburger button allowing the collapse  -->
+				 <button  id="sidebar-toggler" class="hide" type="button">
+			 		<span></span>
+                	<span></span>
+                	<span></span>
+				</button>
+		</nav>
+
+		<section id="intro">	
+		
+		
 			
-			<div id="jumbo"class="jumbotron">
-				<h1> Hello, I'm <span>Sidi Diaby</span> and welcome to my website</h1>
-				<button id="intro-button"class="btn btn-lg mt-4"> Start Here
+			<div id="jumbo">
+				<h1 > Hello, I'm <span>Sidi Diaby</span> and welcome to my website</h1>
+				<button id="intro-button"class="btn btn-lg"> Start Here
 					
 				</button>
 			</div>
 			
 
-		</div>
-
-	</section>
-
-	<section id="aboutMe">
 		
-	</section>
 
-	<section id="projects">
+		</section>
+
+			<section id="aboutMe">
+
+				<div class="about-text">
+
+					<h1 class="title">
+					About me
+					</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nulla beatae, exercitationem cum voluptatem iste cupiditate nostrum. Quisquam consequuntur quis, saepe dicta aliquid sequi deleniti sunt quos. Soluta ea, facilis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam odit reprehenderit amet obcaecati quas, molestiae voluptas ex a nemo officia sit tenetur reiciendis molestias nostrum excepturi porro dolores inventore. Reprehenderit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quidem unde ex quis, vitae enim consequuntur alias eveniet id itaque dolore veritatis officiis adipisci sequi suscipit tenetur velit, in libero.</p>
+					
+				</div>	
 		
-	</section>
+		</section>
+
+		<div class="triangle"></div>
+		<section id="projects">
+
+			<div class="projects-container">
+
+				<h1 class="title"> My Projects</h1>
+
+				<div class="row">
+					<div class="col-lg-4 col-sm-12 box"> 
+
+					</div>
+
+					<div class="col-lg-8 col-sm-12 box">
+						
+					</div>
+					
+				</div>
+
+				
+
+
+			</div>
+		
+		</section>
+
 
 	<footer id='footer'>
 		
 	</footer>
 
 
+
+
+	</div>
+
+	<nav id="side-bar" class="hide">
+			
+			<!-- the different nav items to be collapse -->
+
+			<h1> Sidi's portfolio</h1>
+
+		 	<ul id="pages" class="list-unstyled">
+		 		<li >
+		 			
+		 			<a  href="#" >About me</a>
+		 		</li>
+		 		<li >
+		 			
+		 			<a  href="#" >Skills</a>
+		 		</li>
+		 		<li >
+		 			
+		 			<a  href="#" >Projects</a>
+		 		</li>
+		 		<li >
+		 			
+		 			<a  href="#" >Resume</a>
+		 		</li>
+		 	</ul>
+
+
+		 	<ul id="social" class="list-unstyled">
+		 		
+				<li><a href="#"> <i class="fab fa-github" style=" color: black; "></i> </a><a href="#"> <i class="fab fa-linkedin" style=" color: rgb(14, 118, 168);"></i></a><a href="#"> <i class="fas fa-envelope" style=" color: orange;"></i> </a></li>
+
+
+		 	</ul>
+		 	
+		</nav>
+
+
+
+</div>
+
+
+
+	
+
+
  <!-- bootstrap script start -->
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	
+	<!-- </script> -->
 
 	<!-- bootstrap script end -->
+	<!-- scrollreveal -->
+
+	
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	
+	<script type="text/javascript" src="./asset/js/main.js"></script>
 
 </body>
 </html>
