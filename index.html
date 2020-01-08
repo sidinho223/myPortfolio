@@ -9,7 +9,11 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Zilla+Slab|Montserrat|Dancing+Script=swap" rel="stylesheet">
 	<!-- Bootstrap 4 cd  -->
-	
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 	<!-- --------------------------------------------------------- -->
 	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -36,7 +40,7 @@
 		
 		<nav id="style-navbar"class="navbar navbar-light hide">
 				<!-- the brand located on the navba -->
-				 <a href="#" class="navbar-brand">S.M.D</a>
+				 <a href="#intro" class="navbar-brand">S.M.D</a>
 				 <!-- This is the hamburger button allowing the collapse  -->
 				 <button  id="sidebar-toggler" class="hide" type="button">
 			 		<span></span>
@@ -51,9 +55,9 @@
 			
 			<div id="jumbo">
 				<h1 > Hello, I'm <span>Sidi Diaby</span> and welcome to my website</h1>
-				<button id="intro-button"class="btn btn-lg"> Start Here
+				<a href="#aboutMe" class="btn btn-lg intro-button"> Start Here
 					
-				</button>
+				</a>
 			</div>
 			
 
@@ -66,7 +70,7 @@
 				<div class="about-text">
 
 					<h1 class="title">
-					About me
+					About Me
 					</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nulla beatae, exercitationem cum voluptatem iste cupiditate nostrum. Quisquam consequuntur quis, saepe dicta aliquid sequi deleniti sunt quos. Soluta ea, facilis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam odit reprehenderit amet obcaecati quas, molestiae voluptas ex a nemo officia sit tenetur reiciendis molestias nostrum excepturi porro dolores inventore. Reprehenderit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quidem unde ex quis, vitae enim consequuntur alias eveniet id itaque dolore veritatis officiis adipisci sequi suscipit tenetur velit, in libero.</p>
 					
@@ -74,23 +78,195 @@
 		
 		</section>
 
-		<div class="triangle"></div>
+		<div class="triangle-down"></div>
+
+
+		<section id="skills">
+			<h1 class="title">My Skills</h1>
+			<div class="skills-container">
+				<div class="skills">
+					<span data-tilt><img class="skill" src="./asset/img/git.png"></span>
+					<span data-tilt><img class="skill" src="./asset/img/Java.svg"></span>
+					<span data-tilt><img class="skill" src="./asset/img/JQuery.svg"></span>
+					<span data-tilt><img class="skill" src="./asset/img/Js.svg"></span>
+					<span data-tilt><img class="skill" src="./asset/img/Linux.svg"></span>
+					<span data-tilt><img class="skill" src="./asset/img/MongoDB.png"></span>
+					<span data-tilt><img class="skill" src="./asset/img/Node.svg"></span>
+					<span data-tilt><img class="skill" src="./asset/img/Npm.svg"></span>
+					<span data-tilt><img class="skill" src="./asset/img/Postgresql.svg"></span>
+					<span data-tilt><img class="skill" src="./asset/img/react.svg"></span>
+					<span data-tilt><img class="skill" src="./asset/img/"></span>
+					<span data-tilt><img class="skill" src="./asset/img/"></span>
+					
+				</div>
+				
+			</div>
+				
+				
+		</section>
+
+		<!-- <div class="triangle-up"></div> -->
+
 		<section id="projects">
 
 			<div class="projects-container">
 
-				<h1 class="title"> My Projects</h1>
+				
+				<h1 class="title">My Projects</h1>
 
-				<div class="row">
-					<div class="col-lg-4 col-sm-12 box"> 
+				<div class="row project">
+					<div class="col-lg-4 col-sm-12 project-img">
+
+						<h2>AJ&Brothers</h2> 
+
+						<img src="">
+
+						<a href="" class="button">Source code</a>
+						<a href="" class="button">Live demo</a>
 
 					</div>
 
-					<div class="col-lg-8 col-sm-12 box">
+					<div class="col-lg-7 col-sm-12 project-content">
+
+					<h3>Problem</h3>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\ </p>
+
+					<h3>Solution</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h3>tools</h3>
+					<p>javaScript, jquery, HTML5, CSS</p>
+
 						
 					</div>
 					
 				</div>
+
+			
+
+				<div class="row project">
+					<div class="col-lg-4 col-sm-12 project-img">
+
+						<h2>AJ&Brothers</h2> 
+
+						<img src="">
+
+						<a href="" class="button">Source code</a>
+						<a href="" class="button">Live demo</a>
+
+					</div>
+
+					<div class="col-lg-7 col-sm-12 project-content">
+
+					<h3>Problem</h3>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\ </p>
+
+					<h3>Solution</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h3>tools</h3>
+					<p>javaScript, jquery, HTML5, CSS</p>
+
+						
+					</div>
+					
+				</div>
+
+
+				<div class="row project">
+					<div class="col-lg-4 col-sm-12 project-img">
+
+						<h2>AJ&Brothers</h2> 
+
+						<img src="">
+
+						<a href="" class="button">Source code</a>
+						<a href="" class="button">Live demo</a>
+
+					</div>
+
+					<div class="col-lg-7 col-sm-12 project-content">
+
+					<h3>Problem</h3>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\ </p>
+
+					<h3>Solution</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h3>tools</h3>
+					<p>javaScript, jquery, HTML5, CSS</p>
+
+						
+					</div>
+					
+				</div>
+
+
+				<div class="row project">
+					<div class="col-lg-4 col-sm-12 project-img">
+
+						<h2>AJ&Brothers</h2> 
+
+						<img src="">
+
+						<a href="" class="button">Source code</a>
+						<a href="" class="button">Live demo</a>
+
+					</div>
+
+					<div class="col-lg-7 col-sm-12 project-content">
+
+					<h3>Problem</h3>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\ </p>
+
+					<h3>Solution</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h3>tools</h3>
+					<p>javaScript, jquery, HTML5, CSS</p>
+
+						
+					</div>
+					
+				</div>
+
+
 
 				
 
@@ -99,10 +275,18 @@
 		
 		</section>
 
-
+	<div class="triangle-up"></div>
 	<footer id='footer'>
 		
+		<a href="assets/files/Sidi-Diaby-resume.pdf" class="button" download>Download My Resume</a>
+
+		<li><a href="#"> <i class="fab fa-github" style=" color: black; "></i></a><a href="#"><i class="fab fa-linkedin" style=" color: rgb(14, 118, 168);"></i></a><a href="#"><i class="fas fa-envelope" style=" color: orange;"></i></a></li>
+		
+
+
 	</footer>
+
+
 
 
 
@@ -118,19 +302,19 @@
 		 	<ul id="pages" class="list-unstyled">
 		 		<li >
 		 			
-		 			<a  href="#" >About me</a>
+		 			<a  href="#aboutMe" >About Me</a>
 		 		</li>
 		 		<li >
 		 			
-		 			<a  href="#" >Skills</a>
+		 			<a  href="#skills" >Skills</a>
 		 		</li>
 		 		<li >
 		 			
-		 			<a  href="#" >Projects</a>
+		 			<a  href="#projects" >Projects</a>
 		 		</li>
 		 		<li >
 		 			
-		 			<a  href="#" >Resume</a>
+		 			<a  href="#footer" >Resume</a>
 		 		</li>
 		 	</ul>
 
@@ -167,8 +351,11 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+	
+
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<script src="./asset/js/tilt.js-master/src/tilt.jquery.js"></script>
 
 	
 	<script type="text/javascript" src="./asset/js/main.js"></script>

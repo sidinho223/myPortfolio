@@ -7775,8 +7775,14 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 /*navbar styles*/
 section {
-  padding-top: 70px;
+  height: 800px;
+  padding-top: 30px;
   width: 100%; }
+
+.box {
+  height: 400px;
+  background-color: red;
+  border: 1px solid blue; }
 
 /*intro section style*/
 .wrapper {
@@ -7829,23 +7835,12 @@ section {
     position: absolute;
     top: 0;
     left: 0; }
-    .wrapper #content .black-nav {
-      background-color: #17252A; }
-      .wrapper #content .black-nav .navbar-brand {
-        color: #FEFFFF; }
-      .wrapper #content .black-nav #sidebar-toggler {
-        background-color: #17252A;
-        transition: all 0s; }
-        .wrapper #content .black-nav #sidebar-toggler span {
-          background-color: #FEFFFF; }
     .wrapper #content nav {
-      height: 50px;
+      height: 80px;
       position: fixed;
       width: calc(100% - 250px);
       transition: all 0.3s;
-      z-index: 999;
-      padding-top: 0;
-      padding-bottom: 0; }
+      z-index: 999; }
       .wrapper #content nav.hide {
         width: 100%; }
       .wrapper #content nav .navbar-brand {
@@ -7881,7 +7876,7 @@ section {
     .wrapper #content #intro {
       height: 100vh;
       min-height: 450px;
-      padding-top: 50px; }
+      padding-top: 80px; }
       .wrapper #content #intro #jumbo {
         background-color: transparent;
         padding-top: 8rem; }
@@ -7895,7 +7890,7 @@ section {
           margin-bottom: 3rem; }
           .wrapper #content #intro #jumbo h1 span {
             color: #3AAFA9; }
-        .wrapper #content #intro #jumbo .intro-button {
+        .wrapper #content #intro #jumbo button {
           display: block;
           background-color: none;
           font-family: 'Montserrat', sans-serif;
@@ -7903,9 +7898,8 @@ section {
           background-color: #FEFFFF;
           margin: auto;
           box-shadow: #3AAFA9;
-          border: 1px solid #3AAFA9;
-          width: 150px; }
-        .wrapper #content #intro #jumbo .intro-button:hover {
+          border: 1px solid #3AAFA9; }
+        .wrapper #content #intro #jumbo button:hover {
           background-color: #3AAFA9;
           color: #FEFFFF;
           transition: all 0.5s; }
@@ -7916,84 +7910,31 @@ section {
       padding-left: 200px; }
       .wrapper #content #aboutMe .about-text h1 {
         color: #FEFFFF; }
-    .wrapper #content .triangle-down {
+    .wrapper #content .triangle {
       width: 0;
       height: 0;
-      border-top: 20px solid #17252A;
-      border-left: 100px solid transparent;
-      border-right: 400px solid transparent;
+      border-top: 30px solid #17252A;
+      border-left: 300px solid transparent;
+      border-right: 300px solid transparent;
       margin: 0; }
-    .wrapper #content .triangle-up {
-      width: 0;
-      height: 0;
-      border-bottom: 20px solid #3AAFA9;
-      border-left: 400px solid transparent;
-      border-right: 100px solid transparent;
-      margin: 0;
-      right: 0;
-      margin-left: auto; }
-    .wrapper #content #skills {
-      margin-bottom: 20px; }
-      .wrapper #content #skills .skills {
-        max-width: 600px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;
-        cursor: pointer; }
-        .wrapper #content #skills .skills .skill {
-          height: 125px;
-          width: 125px;
-          box-shadow: 1px 1px 1px 1px #3AAFA9;
-          margin: 10px; }
-    .wrapper #content #projects .projects-container .project {
-      margin: auto;
-      margin-bottom: 30px;
-      max-width: 1200px;
-      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1); }
-      .wrapper #content #projects .projects-container .project .project-img {
-        text-align: center;
+    .wrapper #content #projects .projects-container {
+      height: 300px; }
+      .wrapper #content #projects .projects-container .project-img {
         padding-top: 10px;
         padding-left: 30px;
         padding-right: 30px; }
-        .wrapper #content #projects .projects-container .project .project-img h2 {
+        .wrapper #content #projects .projects-container .project-img h2 {
           margin-bottom: 20px;
           font-family: 'Montserrat', sans-serif; }
-        .wrapper #content #projects .projects-container .project .project-img img {
+        .wrapper #content #projects .projects-container .project-img img {
           display: block;
           height: 250px;
           width: 250px;
           margin-left: auto;
           margin-right: auto;
           background-color: green; }
-        .wrapper #content #projects .projects-container .project .project-img a {
-          border: 1px solid #3AAFA9; }
-      .wrapper #content #projects .projects-container .project .project-content {
-        padding-top: 10px;
-        font-family: 'Montserrat', sans-serif; }
-    .wrapper #content footer {
-      min-height: 200px;
-      background-color: #17252A;
-      text-align: center; }
-      .wrapper #content footer li {
-        display: block; }
-        .wrapper #content footer li a {
-          margin: 10px;
-          font-size: 2rem; }
-    .wrapper #content .button {
-      border: 1px solid #3AAFA9;
-      margin-top: 10px;
-      padding: 10px;
-      margin-bottom: 20px;
-      color: #3AAFA9;
-      display: inline-block; }
-    .wrapper #content .button:hover {
-      text-decoration: none;
-      background-color: #3AAFA9;
-      color: #FEFFFF;
-      transition: all 0.3s; }
     .wrapper #content .title {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       text-align: center;
       font-family: 'Montserrat', sans-serif; }
 

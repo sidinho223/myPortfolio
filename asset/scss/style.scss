@@ -2,17 +2,11 @@
 
 section{
 
-	height: 800px;
-	padding-top: 30px;
+	// min-height: 800px;
+	padding-top: 70px;
 	width: 100%;
 }
 
-.box{
-
-	height: 400px;
-	background-color: red;
-	border: 1px solid blue;
-}
 
 
 /*intro section style*/
@@ -139,23 +133,52 @@ section{
     	top: 0;
     	left: 0;
 
+    	.black-nav{
+
+    		background-color: #17252A;
+
+    		.navbar-brand{
+
+    			color:#FEFFFF;
+    		}
+    		#sidebar-toggler {
+				
+				background-color: #17252A;
+				transition: all 0s;
+
+				span{
+					background-color: #FEFFFF;
+
+				}
+
+    		}
+
+    	}
+
     	nav{
-    		height: 80px;
+    		height: 50px;
     		position: fixed;
     		width: calc(100% - 250px);
     		transition: all 0.3s;
     		z-index: 999;
+    		padding-top: 0;
+    		padding-bottom: 0;
 
     		&.hide{
 
     		width: 100%;
     		}
+
+
+
     	
 
     		.navbar-brand{
 				
 				font-size: 2rem;
 				font-family: 'Zilla Slab', serif;;
+
+
 
     		}
 
@@ -211,7 +234,7 @@ section{
 					// height: calc(100vh - 80px);
 					height: 100vh;
 					min-height: 450px;
-					padding-top: 80px;
+					padding-top: 50px;
 					
 	
 
@@ -242,7 +265,7 @@ section{
 											}
 							}
 
-							button{
+							.intro-button{
 								display: block;		
 								background-color: none;
 								font-family: 'Montserrat', sans-serif;
@@ -251,9 +274,10 @@ section{
 								margin: auto;
 								box-shadow: #3AAFA9;
 								border: 1px solid #3AAFA9;
+								width: 150px;
 							}
 
-							button:hover{
+							.intro-button:hover{
 								background-color: #3AAFA9;;
 								color: #FEFFFF;
 								transition: all 0.5s;
@@ -290,44 +314,166 @@ section{
 			}
 
 
-		.triangle{
+		.triangle-down{
 
 					width: 0;
 					height: 0;
-					border-top: 30px solid #17252A;
-					border-left: 300px solid transparent;
-					border-right: 300px solid transparent;
+					border-top: 20px solid #17252A;
+					border-left: 100px solid transparent;
+					border-right: 400px solid transparent;
 					margin: 0;
 
 
 				}
+		.triangle-up{
 
+					width: 0;
+					height: 0;
+					border-bottom:  20px solid #3AAFA9;
+					border-left: 400px solid transparent;
+					border-right: 100px solid transparent;
+					margin: 0;
+					right: 0;
+					// position: absolute;
+					// margin-bottom:10px;
+					margin-left:auto;
+
+
+				}
+
+
+		#skills{
+			margin-bottom:20px;
+
+			.skills{
+					max-width: 600px;
+					display: flex;
+					flex-wrap:wrap;
+					justify-content: center;
+					// background-color: #3AAFA9;
+					margin: auto;
+					cursor: pointer;
+
+				.skill{
+					height: 125px;
+					width: 125px;
+					box-shadow: 1px 1px 1px 1px #3AAFA9;
+					margin: 10px;
+
+				}
+			}
+
+
+		}
 
 		#projects{
 				
 
 				.projects-container{
-					text-align: center;
-					height: 300px;
-							
-							h1{
 
-								font-size: 2rem;
+					// background-color: #3AAFA9;
 
-							}
+
+					.project{
+						margin: auto;
+						margin-bottom: 30px;
+						max-width:1200px;
+						box-shadow: 0px 0px 4px rgba(0,0,0,0.1);
+					
+
+					.project-img{
+						text-align: center;
+						padding-top: 10px;
+						padding-left: 30px;
+						padding-right: 30px;
+
+						h2{
+
+							margin-bottom: 20px;
+							font-family: 'Montserrat', sans-serif;
+						}
+
+						img{
+							display: block;
+							height: 250px;
+							width: 250px;
+							margin-left: auto;
+							margin-right:auto;
+							background-color: green;
+						}
+
+						a{
+
+							border: 1px solid #3AAFA9; 
+						}
+
+						
+					}
+					.project-content{
+						padding-top: 10px;
+						font-family: 'Montserrat', sans-serif;
+
+
+					}
 
 				}
 
+				
+
+			}
+
+		}
+
+		footer{
+
+			min-height: 200px;
+			background-color: #17252A;
+			text-align: center;
+
+
+
+			
+
+			li{
+				display: block;
+
+				a{
+
+					margin: 10px;
+					font-size:2rem;
+				}
+
+
+			}
 
 
 		}
-	
+
+	.button{
+		
+				border: 1px solid #3AAFA9;
+				margin-top: 10px;
+				padding: 10px;
+				margin-bottom:20px;
+				color:#3AAFA9;
+				display: inline-block;
+
+			}
+	.button:hover{
+
+					text-decoration: none;
+					background-color: #3AAFA9;
+					color:#FEFFFF;
+					transition: all 0.3s;
+				}
 	.title{
 
-						margin-bottom: 20px;
+						margin-bottom: 30px;
+						text-align: center;
 						
 						font-family: 'Montserrat', sans-serif;
 	}
+
 
 		}
 }
